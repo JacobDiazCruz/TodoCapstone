@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+    <div class="todo-app-wrapper">
+      <h1 id="title">My Todo App</h1>
+      <div class="todo-app-box">
+        <!-- STEP 1: UI for "Add a todo item" -->
+        <div class="add-todo-item-wrapper">
+          <input 
+            type="text" 
+            id="add-todo-item-field"
+          />
+          <button 
+            type="button" 
+            id="add-todo-item-btn"
+            onclick="addNewTodoItem()"
+          >Add</button>
+        </div>
+        
+        <!-- STEP 2: DISPLAY THE TODO LIST -->
+        <div class="todo-list-wrapper">
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
