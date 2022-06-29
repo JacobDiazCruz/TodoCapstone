@@ -5,7 +5,7 @@
 //    - update the UI for the new item.
 // 3. Remove a todo item
 // 4. Update a todo item
-// 5. Update todo item to "Done" status
+// 5. Update status of todo item to "DONE"
 
 var num = 0
 
